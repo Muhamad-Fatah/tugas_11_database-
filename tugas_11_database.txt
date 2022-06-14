@@ -1,0 +1,10 @@
+1.Jalankan MySQL server di xampp
+2.Masuk kedalam folder bin mysql : cd c:/xampp/mysql/bin
+3.Jalankan client server : MYSQL -u root
+
+
+4.CREATE user "Niomic" identified by "c0b4d1b4c4!"
+5.USE mysql
+6.SET PASSWORD FOR "Niomic" = PASSWORD("indonesiaku");
+7.GRANT ALL ON belajar.mahasiswa TO Niomic;
+8.DELETE USER Niomic;
